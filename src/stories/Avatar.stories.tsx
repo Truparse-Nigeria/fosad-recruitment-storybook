@@ -26,11 +26,12 @@ DefaultWithInitials.args = {
 
 
 export const Small = Template.bind({});
-Default.args = {
+Small.args = {
     source:"https://tailwindcss.com/_next/static/media/sarah-dayan.a8ff3f1095a58085a82e3bb6aab12eb2.jpg",
     size:"small",
     alt:"Sarah Dayan"
 }
+
 export const SmallWithInitials = Template.bind({});
 SmallWithInitials.args = {
     initials: "NM",

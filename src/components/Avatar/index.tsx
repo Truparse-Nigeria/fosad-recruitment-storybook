@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 
 interface Props {
   source?: string;
@@ -23,6 +23,7 @@ function Avatar({ source, alt, size, initials, colorClass }: Props) {
         } rounded-full mx-1 my-1`}
         src={source}
         alt={alt}
+        loading={"lazy"}
       />
     );
   }
