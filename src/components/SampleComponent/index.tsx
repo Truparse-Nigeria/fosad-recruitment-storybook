@@ -1,4 +1,5 @@
-import Pill from 'components/Pills'
+// import Pill from 'components/Pills'
+import Switch from 'components/Switch'
 import React, { ReactElement } from 'react'
 
 interface SampleProps {
@@ -13,7 +14,8 @@ function SampleComponent({ label, textColor,backgroundColor, children }: SampleP
         <div className={`py-4 px-4 bg-${backgroundColor} text-${textColor}`}>
             <h1>{label}</h1>
             <div>{children}</div>
-            <Pill label='Active' type='offer' size='medium' />
+            {/* <Pill label='Active' type='offer' size='medium' /> */}
+            <Switch />
         </div>
     )
 }
