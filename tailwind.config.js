@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       spacing:{
         '17':'4.25rem'
+      },
+      colors:{
+        primary:"#98CBFF",
+        secondary:"#002D5B"
       }
     },
   },

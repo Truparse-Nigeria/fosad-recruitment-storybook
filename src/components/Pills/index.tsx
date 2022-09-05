@@ -27,56 +27,66 @@ interface PillProps {
   
   export const pillTypeList: {
     name: PillTypes;
+    label?:string;
     indicatorColor: string;
     backgroundColor: string;
     border?:boolean;
   }[] = [
     {
       name: "active",
+      label:"Active",
       indicatorColor: "#3874CB",
       backgroundColor: "#FFFFFF",
       border: true
     },
     {
       name: "onHold",
+      label:"On Hold",
       indicatorColor: "#F6C244",
       backgroundColor: "#FFFFFF",
       border: true
     },
     {
       name: "completed",
+      label:"Completed",
       indicatorColor: "#67AD5C",
       backgroundColor: "#FFFFFF",
       border: true
     },
     {
       name: "cancelled",
+      label:"Cancelled",
       indicatorColor: "#D34B4B",
       backgroundColor: "#FFFFFF",
       border: true
     },
     {
       name: "applied",
+      label:"Applied",
       indicatorColor: "#007EFF",
       backgroundColor: "#D8EBFF",
     },
     {
       name: "interview",
+      label: "Interview",
       indicatorColor: "#E8A80E",
       backgroundColor: "#FDEDD5",
     },
     {
       name: "offer",
+      label: "Offer",
       indicatorColor: "#9F56D1",
       backgroundColor: "#F1DDFF",
     },
     {
       name: "hired",
+      label: "Hired",
       indicatorColor: "#22948B",
       backgroundColor: "#E7FFF6",
     },
     {
       name: "rejected",
+      label: "Rejected",
       indicatorColor: "#EC722E",
       backgroundColor: "#FFE7E7",
     },
@@ -140,7 +150,7 @@ const Pill = ({ label, size, type }: PillProps) => {
  
   return (
     <PlainPill
-      label={label}
+      label={(pillTypeList.find((pt) => pt.name === type) || {}).label || label}
       size={size}
       indicatorColor={
         (pillTypeList.find((pt) => pt.name === type) || {}).indicatorColor

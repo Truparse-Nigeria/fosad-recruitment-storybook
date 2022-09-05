@@ -45,25 +45,21 @@ Large.args = {
 export const Active = Template.bind({});
 Active.args = {
     type:"active",
-    label:"Active",
 };
 
 export const OnHold = Template.bind({});
 OnHold.args = {
     type:"onHold",
-    label:"On Hold",
 };
 
 export const Completed = Template.bind({});
 Completed.args = {
     type:"completed",
-    label:"Completed",
 };
 
 export const Cancelled = Template.bind({});
 Cancelled.args = {
     type:"cancelled",
-    label:"Cancelled",
 };
 
 /* Job Status */
@@ -71,29 +67,24 @@ Cancelled.args = {
 export const Applied = Template.bind({});
 Applied.args = {
     type:"active",
-    label:"Applied",
 };
 
 export const Interview = Template.bind({});
 Interview.args = {
     type:"interview",
-    label:"Interview",
 };
 
 export const Offer = Template.bind({});
 Offer.args = {
     type:"offer",
-    label:"Offer",
 };
 
 export const Hired = Template.bind({});
 Hired.args = {
     type:"hired",
-    label:"Hired",
 };
 
 export const Rejected = Template.bind({});
 Rejected.args = {
     type:"rejected",
-    label:"Rejected",
 };

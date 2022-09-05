@@ -4,7 +4,7 @@ import * as React from 'react';
 import TextArea from 'components/TextArea';
 
 export default {
-  title: 'Forms/TextArea',
+  title: 'Form/TextArea',
   component: TextArea,
   args: {},
 } as ComponentMeta<typeof TextArea>;
