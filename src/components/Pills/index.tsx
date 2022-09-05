@@ -29,26 +29,31 @@ interface PillProps {
     name: PillTypes;
     indicatorColor: string;
     backgroundColor: string;
+    border?:boolean;
   }[] = [
     {
       name: "active",
       indicatorColor: "#3874CB",
       backgroundColor: "#FFFFFF",
+      border: true
     },
     {
       name: "onHold",
       indicatorColor: "#F6C244",
       backgroundColor: "#FFFFFF",
+      border: true
     },
     {
       name: "completed",
       indicatorColor: "#67AD5C",
       backgroundColor: "#FFFFFF",
+      border: true
     },
     {
       name: "cancelled",
       indicatorColor: "#D34B4B",
       backgroundColor: "#FFFFFF",
+      border: true
     },
     {
       name: "applied",
@@ -143,7 +148,7 @@ const Pill = ({ label, size, type }: PillProps) => {
       backgroundColor={
         (pillTypeList.find((pt) => pt.name === type) || {}).backgroundColor
       }
-      className="border-none"
+      className={(pillTypeList.find((pt) => pt.name === type) || {}).border || !type ?"":"border-none"}
     />
   );
 };
