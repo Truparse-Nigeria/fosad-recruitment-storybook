@@ -4,7 +4,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import Avatar from 'components/Avatar';
 
 export default {
-    title: 'images/Avatar',
+    title: 'Images/Avatar',
     component: Avatar,
     parameters: {
         layout: 'fullscreen'

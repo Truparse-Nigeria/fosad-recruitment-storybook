@@ -1,4 +1,4 @@
-import type { ComponentSize } from "components/types";
+import type { ComponentSize } from "components/types"; 
 import React from "react";
 
 interface TextAreaProps {
