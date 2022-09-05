@@ -18,6 +18,8 @@ Default.args = {
   placeholder:"Default..."
 };
 
+
+/* By Size */
 export const Small = Template.bind({});
 Small.args ={
   size:"small",
@@ -34,4 +36,18 @@ export const Large = Template.bind({});
 Large.args ={
   size:"large",
   placeholder:"Large"
+}
+
+/* By Theme */
+
+export const Primary = Template.bind({});
+Primary.args ={
+  placeholder:"Primary",
+  theme:'primary'
+}
+
+export const Secondary = Template.bind({});
+Secondary.args ={
+  placeholder:"Secondary",
+  theme:'secondary'
 }
