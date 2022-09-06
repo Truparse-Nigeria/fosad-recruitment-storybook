@@ -5,7 +5,7 @@ import Checkbox from "components/Checkbox";
 export default {
   title: "Form/Checkbox",
   component: Checkbox,
-} as ComponentMeta<typeof Checkbox>;;
+} as ComponentMeta<typeof Checkbox>;
 
 const Template: ComponentStory<typeof Checkbox> = (args) =>  <Checkbox {...args} />;
 
