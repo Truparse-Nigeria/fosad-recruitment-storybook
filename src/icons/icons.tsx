@@ -4,7 +4,21 @@ import {
     Jobs,
     Team,
     Settings,
-    Inbox
+    Inbox,
+    ArrowDown,
+    ArrowForward,
+    Plus,
+    Edit,
+    Education,
+    Resume,
+    Search,
+    Skills,
+    OtherInfo,
+    Overview,
+    Menu,
+    Minus,
+    Location,
+    Action
   } from "./";
   
   export {
@@ -13,6 +27,20 @@ import {
     Team,
     Jobs,
     Finance,
-    Inbox
+    Inbox,
+    ArrowDown,
+    ArrowForward,
+    Plus,
+    Edit,
+    Education,
+    Resume,
+    Search,
+    Skills,
+    OtherInfo,
+    Overview,
+    Menu,
+    Minus,
+    Location,
+    Action
   };
   
