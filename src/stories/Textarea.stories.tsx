@@ -1,5 +1,5 @@
-import { ComponentStory, ComponentMeta } from '@storybook/react';
 import * as React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import TextArea from 'components/TextArea';
 

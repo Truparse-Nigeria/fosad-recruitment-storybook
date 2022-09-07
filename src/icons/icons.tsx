@@ -1,0 +1,46 @@
+import {
+    Finance,
+    Candidates,
+    Jobs,
+    Team,
+    Settings,
+    Inbox,
+    ArrowDown,
+    ArrowForward,
+    Plus,
+    Edit,
+    Education,
+    Resume,
+    Search,
+    Skills,
+    OtherInfo,
+    Overview,
+    Menu,
+    Minus,
+    Location,
+    Action
+  } from "./";
+  
+  export {
+    Settings,
+    Candidates,
+    Team,
+    Jobs,
+    Finance,
+    Inbox,
+    ArrowDown,
+    ArrowForward,
+    Plus,
+    Edit,
+    Education,
+    Resume,
+    Search,
+    Skills,
+    OtherInfo,
+    Overview,
+    Menu,
+    Minus,
+    Location,
+    Action
+  };
+  

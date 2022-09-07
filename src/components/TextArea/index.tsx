@@ -1,5 +1,5 @@
-import type { ComponentSize } from "components/types"; 
 import React from "react";
+import type { ComponentSize } from "components/types";
 
 interface TextAreaProps {
   //   value: string;
@@ -8,7 +8,7 @@ interface TextAreaProps {
   theme?: "primary" | "secondary";
 }
 
-function TextArea({ size, theme, placeholder }: TextAreaProps) {
+function TextArea ({ size, theme, placeholder }: TextAreaProps) {
   return (
     <textarea
       className={`m-2 rounded-lg ${
