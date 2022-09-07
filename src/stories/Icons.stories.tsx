@@ -14,7 +14,6 @@ import SvgJobs from "icons/Jobs";
 import SvgTeam from "icons/Team";
 import SvgSettings from "icons/Settings";
 import SvgCandidates from "icons/Candidates";
-import Icons from "components/Icons";
 import SvgArrowDown from "icons/ArrowDown";
 import SvgArrowForward from "icons/ArrowForward";
 import SvgPlus from "icons/Plus";
@@ -30,6 +29,7 @@ import SvgAction from "icons/Action";
 import SvgMenu from "icons/Menu";
 import SvgMinus from "icons/Minus";
 import SvgSearch from "icons/Search";
+import Icons from "components/Icons";
 
 
 export const FinanceIcon = () => <SvgFinance width={22} height={22} />;
