@@ -8,14 +8,16 @@ export default {
 
   const Template: ComponentStory<typeof Icons> = (args) =>  <Icons {...args} />;
 
+
+import SvgArrowDown from "icons/ArrowDown";
+import SvgArrowForward from "icons/ArrowForward";
+import SvgAction from "icons/Action";
 import SvgFinance from "icons/Finance";
 import SvgInbox from "icons/Inbox";
 import SvgJobs from "icons/Jobs";
 import SvgTeam from "icons/Team";
 import SvgSettings from "icons/Settings";
 import SvgCandidates from "icons/Candidates";
-import SvgArrowDown from "icons/ArrowDown";
-import SvgArrowForward from "icons/ArrowForward";
 import SvgPlus from "icons/Plus";
 import SvgEducation from "icons/Education";
 import SvgResume from "icons/Resume";
@@ -25,7 +27,6 @@ import SvgOverview from "icons/Overview";
 import SvgEdit from "icons/Edit";
 import SvgTrash from "icons/Trash";
 import SvgLocation from "icons/Location";
-import SvgAction from "icons/Action";
 import SvgMenu from "icons/Menu";
 import SvgMinus from "icons/Minus";
 import SvgSearch from "icons/Search";

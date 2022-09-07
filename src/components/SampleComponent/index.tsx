@@ -1,9 +1,5 @@
 // import Pill from 'components/Pills'
-<<<<<<< HEAD
-// import Switch from 'components/Switch'
-=======
 import Button from 'components/Button'
->>>>>>> b4587a18c91722904068705345a4660947ba2339
 import React, { ReactElement } from 'react'
 
 interface SampleProps {
@@ -19,11 +15,7 @@ function SampleComponent({ label, textColor,backgroundColor, children }: SampleP
             <h1>{label}</h1>
             <div>{children}</div>
             {/* <Pill label='Active' type='offer' size='medium' /> */}
-<<<<<<< HEAD
-            {/* <Switch /> */}
-=======
             <Button label='Button' size='large' color='secondary'/>
->>>>>>> b4587a18c91722904068705345a4660947ba2339
         </div>
     )
 }
