@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family: 'Inter', sans-serif;
+}
 .switch{
   @apply cursor-pointer;
 }
@@ -17,7 +21,7 @@
 }
 
 .switch-input:checked + .switch-label{
-  @apply bg-primary;
+  @apply bg-black;
 }
 
 .switch-input:checked + .switch-label:after{
