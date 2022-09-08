@@ -10,7 +10,7 @@ interface SwitchProps {
 function Switch({ id,value, checked, onChange }: SwitchProps) {
   const randId = `${Math.floor(Math.random() * 1000)}-switch-${Math.floor(
     Math.random() * 1000
-  )}`;
+  )}`; 
 
   return (
     <div className="switch w-2/4">
