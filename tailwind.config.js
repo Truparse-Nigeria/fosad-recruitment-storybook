@@ -11,6 +11,9 @@ module.exports = {
       colors:{
         primary:"#98CBFF",
         secondary:"#002D5B"
+      },
+      fontFamily:{
+        'sans':['Inter', 'sans-serif'],
       }
     },
   },
