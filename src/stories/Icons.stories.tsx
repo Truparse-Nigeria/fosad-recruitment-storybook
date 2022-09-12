@@ -1,5 +1,27 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from '@storybook/react';
+import SvgAction from "icons/Action";
+import SvgArrowDown from "icons/ArrowDown";
+import SvgArrowForward from "icons/ArrowForward";
+import SvgCandidates from "icons/Candidates";
+import SvgEdit from "icons/Edit";
+import SvgEducation from "icons/Education";
+import SvgFinance from "icons/Finance";
+import SvgInbox from "icons/Inbox";
+import SvgJobs from "icons/Jobs";
+import SvgLocation from "icons/Location";
+import SvgMenu from "icons/Menu";
+import SvgMinus from "icons/Minus";
+import SvgOtherInfo from "icons/OtherInfo";
+import SvgOverview from "icons/Overview";
+import SvgPlus from "icons/Plus";
+import SvgResume from "icons/Resume";
+import SvgSearch from "icons/Search";
+import SvgSettings from "icons/Settings";
+import SvgSkills from "icons/Skills";
+import SvgTeam from "icons/Team";
+import SvgTrash from "icons/Trash";
+import Icons from "components/Icons";
 
 export default {
     title: "Images/Icons",
@@ -7,30 +29,6 @@ export default {
   } as ComponentMeta<typeof Icons>;
 
   const Template: ComponentStory<typeof Icons> = (args) =>  <Icons {...args} />;
-
-
-import SvgArrowDown from "icons/ArrowDown";
-import SvgArrowForward from "icons/ArrowForward";
-import SvgAction from "icons/Action";
-import SvgFinance from "icons/Finance";
-import SvgInbox from "icons/Inbox";
-import SvgJobs from "icons/Jobs";
-import SvgTeam from "icons/Team";
-import SvgSettings from "icons/Settings";
-import SvgCandidates from "icons/Candidates";
-import SvgPlus from "icons/Plus";
-import SvgEducation from "icons/Education";
-import SvgResume from "icons/Resume";
-import SvgSkills from "icons/Skills";
-import SvgOtherInfo from "icons/OtherInfo";
-import SvgOverview from "icons/Overview";
-import SvgEdit from "icons/Edit";
-import SvgTrash from "icons/Trash";
-import SvgLocation from "icons/Location";
-import SvgMenu from "icons/Menu";
-import SvgMinus from "icons/Minus";
-import SvgSearch from "icons/Search";
-import Icons from "components/Icons";
 
 
 export const FinanceIcon = () => <SvgFinance width={22} height={22} />;
