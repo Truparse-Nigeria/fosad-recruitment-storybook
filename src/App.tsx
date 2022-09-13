@@ -1,4 +1,4 @@
-import Button from "components/Button";
+import { Button } from "stories/Button";
 
 export default function App() {
   return (
@@ -6,7 +6,7 @@ export default function App() {
       <h1 className="text-3xl font-bold underline bg-red-700">
       Hello world!
     </h1>
-    <Button label="Button007"/>
+    <Button label="Button007" />
     </div>
   )
 }

@@ -1,12 +1,7 @@
 // import Pill from 'components/Pills'
-<<<<<<< HEAD
-import Button from 'components/Button'
-import React, { ReactElement } from 'react'
-=======
 import Switch from 'components/Switch'
 import Button from 'components/Button'
 import React, { ReactElement, useState } from 'react'
->>>>>>> 641507772fdf87fe239aba2f54e9f8dcbdf55458
 
 interface SampleProps {
     label: string
@@ -22,13 +17,9 @@ function SampleComponent({ label, textColor,backgroundColor, children }: SampleP
             <h1>{label}</h1>
             <div>{children}</div>
             {/* <Pill label='Active' type='offer' size='medium' /> */}
-<<<<<<< HEAD
-            <Button label='Button' size='large' color='secondary'/>
-=======
             <Switch checked={isChecked} onChange={(e)=>setChecked(!isChecked)} />
             <Button label='Button' size='large' color='secondary'/>
 
->>>>>>> 641507772fdf87fe239aba2f54e9f8dcbdf55458
         </div>
     )
 }
