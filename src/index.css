@@ -1,29 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: 'Inter', sans-serif;
+* {
+  font-family: "Inter", sans-serif;
 }
-.switch{
+.switch {
   @apply cursor-pointer;
 }
-.switch-input{
+.switch-input {
   @apply block opacity-0;
 }
-.switch-label{
-  @apply transition-[0.5s] ease-in-out cursor-pointer rounded-full bg-gray-500 inline-block relative w-9 h-5;
+.switch-label {
+  @apply transition-[0.5s] ease-in-out cursor-pointer rounded-full bg-[#E4E8EE] inline-block relative;
 }
-.switch-label:after{
+.switch-label-sm {
+  @apply w-9 h-5;
+}
+.switch-label-default,
+.switch-label-md {
+  @apply w-12 h-7;
+}
+.switch-label-lg {
+  @apply w-17 h-10;
+}
+.switch-label::after {
   content: "";
-  @apply absolute left-[2px] top-[2px] w-4 h-4 bg-white rounded-full shadow-md transition-[0.5s] ease-in-out;
+  @apply absolute  bg-white rounded-full shadow-md transition-[0.4s] ease-in-out;
 }
-
-.switch-input:checked + .switch-label{
+.switch-label-sm::after {
+  @apply w-4 h-4 left-[2px] top-[1.7px];
+}
+.switch-label-default::after,
+.switch-label-md::after {
+  @apply w-6 h-6 left-[2px] top-[2px];
+}
+.switch-label-lg::after {
+  @apply w-8 h-8 left-[6px] top-[4px];
+}
+.switch-input:checked + .switch-label {
   @apply bg-black;
 }
 
-.switch-input:checked + .switch-label:after{
+.switch-input:checked + .switch-label:after {
   @apply left-auto right-[4px] translate-x-[2px] transition-[0.5s] ease-in-out;
 }
+.switch-input:checked + .switch-label-sm:after{
+  /* @apply right-[6px]; */
+}
+.switch-input:checked + .switch-label-lg:after{
+  @apply right-[6px];
+}
+
