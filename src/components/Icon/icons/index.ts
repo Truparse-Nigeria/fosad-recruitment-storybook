@@ -19,3 +19,5 @@ export * from "./Edit";
 export * from "./Minus";
 export * from "./Trash";
 export * from "./Search";
+export * from "./Fosad";
+export * from "./FosadRecruiter";
