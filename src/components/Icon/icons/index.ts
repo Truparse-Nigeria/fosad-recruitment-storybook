@@ -21,3 +21,5 @@ export * from "./Trash";
 export * from "./Search";
 export * from "./Fosad";
 export * from "./FosadRecruiter";
+export * from "./Account"
+export * from "./Work"
