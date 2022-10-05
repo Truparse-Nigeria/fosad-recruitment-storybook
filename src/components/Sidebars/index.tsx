@@ -29,7 +29,6 @@ function Sidebar({text, iconSrc, href}: MenuItemsProps) {
                     <link href={href} />
                     {iconSrc}
                     <a className='ml-2'>
-                        
                         {text}</a>
             </li>
             ))}
