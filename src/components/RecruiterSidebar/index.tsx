@@ -25,12 +25,12 @@ function RecruiterSidebar({text, iconSrc, href}: MenuItemsProps) {
     ] mr-4 rounded'>
         <ul>
             {menuItems.map(({text, href, iconSrc}) => (
-                <li className={`flex p-3 flex-row items-center ml-2`}>
+                <button className={`flex p-[10px] flex-row items-center w-full`}>
                     <link href={href} />
                     {iconSrc}
                     <a className='ml-2'>
                         {text}</a>
-            </li>
+            </button>
             ))}
         </ul>
     </nav>

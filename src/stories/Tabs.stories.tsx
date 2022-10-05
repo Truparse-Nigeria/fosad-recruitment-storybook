@@ -10,27 +10,8 @@ export default {
 } as ComponentMeta<typeof Tabs>;
 
 const Template: ComponentStory<typeof Tabs> = (args) => (<TabContainer {...args}>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
-  <Tabs title="hello">
-    <p>suggested jobs</p>
-  </Tabs>
+  
+   
 </TabContainer>)
 
 export const AdminTab = Template.bind({});
