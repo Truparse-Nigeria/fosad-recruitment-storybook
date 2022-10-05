@@ -88,3 +88,11 @@ export const Rejected = Template.bind({});
 Rejected.args = {
     type:"rejected",
 };
+export const FullTime = Template.bind({});
+FullTime.args = {
+    type:"full-time",
+};
+export const Remote = Template.bind({});
+Rejected.args = {
+    type:"remote",
+};
