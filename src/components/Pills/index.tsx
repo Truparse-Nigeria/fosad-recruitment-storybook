@@ -23,7 +23,10 @@ interface PillProps {
     | "hired"
     | "interview"
     | "rejected"
-    | "offer";
+    | "offer"
+    | "$250,000/yr"
+    | "full-time"
+    | "remote";
   
   export const pillTypeList: {
     name: PillTypes;
@@ -90,6 +93,24 @@ interface PillProps {
       indicatorColor: "#EC722E",
       backgroundColor: "#FFE7E7",
     },
+    {
+      name: "$250,000/yr",
+      label: "$250,000/yr",
+      indicatorColor: "",
+      backgroundColor: "#CFF8F5",
+    },
+    {
+      name: "remote",
+      label: "Remote",
+      indicatorColor: "",
+      backgroundColor: "#E1EFC2",
+    },
+    {
+      name: "full-time",
+      label: "Full-Time",
+      indicatorColor: "",
+      backgroundColor: "#E5D0FB",
+    }
   ];
 
 

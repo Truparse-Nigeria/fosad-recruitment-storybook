@@ -17,8 +17,7 @@ function SampleComponent({ label, textColor,backgroundColor, children }: SampleP
             <h1>{label}</h1>
             <div>{children}</div>
             {/* <Pill label='Active' type='offer' size='medium' /> */}
-            <Switch checked={isChecked} onChange={(e)=>setChecked(!isChecked)} />
-            <Button label='Button' size='large' color='secondary'/>
+           <Button label='Button' size='large' color='secondary'/>
 
         </div>
     )
